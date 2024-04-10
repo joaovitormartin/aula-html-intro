@@ -25,3 +25,20 @@ h2 {
     border-radius: 50px;
     text-align: center;
 }
+.flex-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.horizontal {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.minhas-letras {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
